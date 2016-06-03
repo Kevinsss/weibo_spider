@@ -22,7 +22,7 @@ class WeiboConsumer(threading.Thread):
 		self.user_queue = queue
 
 	def run(self):
-		cookie = 'ALF=1467443770; SUB=_2A256S5xeDeTxGedN6VEU9ibEyz6IHXVZtyQWrDV6PUJbktBeLXnTkW2hJ6gmO3q3fbndgc0R8HSWU5_3rA..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWVaXD_yah8L9P7pZ9m6S5W5JpX5o2p5NHD95Qpe0z0SKqR1h5EWs4DqcjeMNyrSoMXehMRe050; SUHB=04W_96rQM3PgzE; SSOLoginState=1464855566; gsid_CTandWM=4uACCpOz5bvJiPvmMqAIK5yjScW; _T_WM=84f56c3f1836985e39ff3ebe106a858b'
+		cookie = 'set yourself login cookie'
 		headers = {
 			'User-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36',
 			'cookie': cookie
