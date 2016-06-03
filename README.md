@@ -15,19 +15,21 @@
 
 ## Usage
 To run main.py normaly, you need do these:
+
 1. you need to login [weibo.cn](http://weibo.cn)(Mobile page) to get login cookie.
 2. copy cookies, set to variable: cookie in WeiboConsumer.py line 25. 
 3. set start parameters: -t (Weiboconsumer thread numbers)(Optional)
 
 Example:
-    python main.py -t 3
+
+	python main.py -t 3
 
 ## How to get cookie:
 1. open [weibo.cn](http://weibo.cn) in Firefox or Chrome.
 2. open developer tools -> NetWork， find weibo.cn login request header.
 3. copy cookie in request header to program.
 
-![image](https://github.com/Kevinsss/weibo_spider/blog/master/cookie.png)
+![image](https://github.com/Kevinsss/weibo_spider/blob/master/result.png)
 
 
 
