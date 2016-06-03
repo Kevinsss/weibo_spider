@@ -18,7 +18,8 @@ To run main.py normaly, you need do these:
 
 1. you need to login [weibo.cn](http://weibo.cn)(Mobile page) to get login cookie.
 2. copy cookies, set to variable: cookie in WeiboConsumer.py line 25. 
-3. set start parameters: -t (Weiboconsumer thread numbers)(Optional)
+3. install MySQL and create database,tables.
+4. set start parameters: -t (Weiboconsumer thread numbers)(Optional)
 
 Example:
 
